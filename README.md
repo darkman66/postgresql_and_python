@@ -34,7 +34,7 @@ Compile with python support and Python from out /opt/py directory
     
 Now compile and install plugins
 
-    contrib ➤ cd ~/stuff/postgresql-9.4.3/contrib
+    cd ~/stuff/postgresql-9.4.3/contrib
     make
     make install
     
@@ -58,3 +58,18 @@ Please rememebr about the correct encoding for DB! Now create new language for d
 
     /opt/pgsql/bin/createlang -h localhost  -d pie plpythonu
     
+
+# Inserting data
+
+First you have to create structure of the database
+
+    ➜  postgresql_and_python git:(master) psql -h localhost pie < tables.sql
+    
+Next insert fake data
+
+    ➜  postgresql_and_python git:(master) psql -h localhost pie < data.sql
+    
+Now in the same way insert functions one by one from the reposiroey (just skip steps.sql file)
+
+
+Have fun!
