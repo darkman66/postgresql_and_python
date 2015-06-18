@@ -1,6 +1,6 @@
 -- client
-insert into client (row_change_time, c_name, c_surname, dob, e_mail) values (now(), 'John', 'Doe', '1970-08-17', 'john.doe@foo.com');
-insert into client (row_change_time, c_name, c_surname, dob, e_mail) values (now(), 'Jane', 'Doe', '1907-01-12', 'jane.doe@foo.com');
+insert into client (row_change_time, c_name, c_surname, dob, e_mail) values (now(), 'John', 'DX', '1970-08-17', 'john@foo.com');
+insert into client (row_change_time, c_name, c_surname, dob, e_mail) values (now(), 'Jane', 'DY', '1907-01-12', 'jane@foo.com');
 
 
 -- products
