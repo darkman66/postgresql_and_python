@@ -1,5 +1,3 @@
-
-/***************************/
 create or replace function logic.tgr_bill_i()
 returns trigger as
 $$
