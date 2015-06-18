@@ -1,4 +1,4 @@
-create or replace function logic.check_available_slots()
+create or replace function logic.hello_world()
 returns void as
 $$
 """
