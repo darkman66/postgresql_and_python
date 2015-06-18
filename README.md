@@ -6,7 +6,7 @@ Download python source code
 
     wget https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
     
-Compile it. Warning, Please pay attntion about --enable-shared flag!
+Compile it. Warning, Please pay attention about --enable-shared flag!
 
     ~/stuff/Python-2.7.10% ./configure —PREFIX=/opt/py --enable-shared
 
